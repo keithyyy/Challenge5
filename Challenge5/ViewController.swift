@@ -7,13 +7,59 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
+    
+    var countries = [Country]()
+     
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    
+
+        parseJSON()
+        print(countries.count)
+
+    }
+    
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return countries.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Country", for: indexPath)
+        
+        let Country = countries[indexPath.row]
+        cell.textLabel?.text = Country.name
+        cell.detailTextLabel?.text = Country.capital
+        return cell
+    }
+    
+    
+    func parseJSON() {
+        
+        guard let path = Bundle.main.path(forResource: "Countries", ofType: "json") else { return }
+
+        let url = URL(fileURLWithPath: path)
+        
+        
+        let decoder = JSONDecoder()
+        
+        
+        do {
+            let jsonData = try Data(contentsOf: url)
+            
+            if let jsonCountries = try? decoder.decode(Countries.self, from: jsonData) {
+                countries = jsonCountries.countries
+            }
+        } catch {
+            print("Failed to parse")
+        }
+        
     }
 
 
-}
+    }
 

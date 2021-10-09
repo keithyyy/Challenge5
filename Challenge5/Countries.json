@@ -1,0 +1,28 @@
+{
+    "countries": [
+        {
+            "name": "Canada",
+            "population": 38000000,
+            "capital": "Ottawa",
+            "fact1": "A beaver, moose and duck appear on their currency",
+            "fact2": "Their money is made of plastic"
+        },
+        {
+            "name": "Italy",
+            "population": 60317116,
+            "capital": "Rome",
+            "fact1": "It has 3 active volcanoes",
+            "fact2": "Vatican city is the smallest country in the world"
+        },
+        {
+            "name": "Phillipines",
+            "population": 109035343,
+            "capital": "Manila",
+            "fact1": "Entire landmass is made up of islands",
+            "fact2": "Largest producer of coconuts in the world"
+        }
+    ]
+
+}
+
+

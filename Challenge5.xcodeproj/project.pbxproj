@@ -13,6 +13,9 @@
 		2D3DB679270A6DC500392673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DB677270A6DC500392673 /* Main.storyboard */; };
 		2D3DB67B270A6DC700392673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DB67A270A6DC700392673 /* Assets.xcassets */; };
 		2D3DB67E270A6DC700392673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DB67C270A6DC700392673 /* LaunchScreen.storyboard */; };
+		2D3DB686270A702000392673 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DB685270A702000392673 /* Country.swift */; };
+		2D3DB688270A741100392673 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DB687270A741100392673 /* Countries.json */; };
+		2D5CB88527120312001F1CB1 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5CB88427120312001F1CB1 /* Countries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2D3DB67A270A6DC700392673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D3DB67D270A6DC700392673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D3DB67F270A6DC700392673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3DB685270A702000392673 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		2D3DB687270A741100392673 /* Countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		2D5CB88427120312001F1CB1 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				2D3DB671270A6DC500392673 /* AppDelegate.swift */,
 				2D3DB673270A6DC500392673 /* SceneDelegate.swift */,
 				2D3DB675270A6DC500392673 /* ViewController.swift */,
+				2D3DB685270A702000392673 /* Country.swift */,
+				2D5CB88427120312001F1CB1 /* Countries.swift */,
+				2D3DB687270A741100392673 /* Countries.json */,
 				2D3DB677270A6DC500392673 /* Main.storyboard */,
 				2D3DB67A270A6DC700392673 /* Assets.xcassets */,
 				2D3DB67C270A6DC700392673 /* LaunchScreen.storyboard */,
@@ -126,6 +135,7 @@
 			files = (
 				2D3DB67E270A6DC700392673 /* LaunchScreen.storyboard in Resources */,
 				2D3DB67B270A6DC700392673 /* Assets.xcassets in Resources */,
+				2D3DB688270A741100392673 /* Countries.json in Resources */,
 				2D3DB679270A6DC500392673 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3DB686270A702000392673 /* Country.swift in Sources */,
 				2D3DB676270A6DC500392673 /* ViewController.swift in Sources */,
 				2D3DB672270A6DC500392673 /* AppDelegate.swift in Sources */,
+				2D5CB88527120312001F1CB1 /* Countries.swift in Sources */,
 				2D3DB674270A6DC500392673 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
