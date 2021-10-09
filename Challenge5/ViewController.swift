@@ -19,7 +19,7 @@ class ViewController: UITableViewController {
     
 
         parseJSON()
-        print(countries.count)
+        
 
     }
     
