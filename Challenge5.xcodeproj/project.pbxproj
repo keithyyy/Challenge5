@@ -16,6 +16,7 @@
 		2D3DB686270A702000392673 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DB685270A702000392673 /* Country.swift */; };
 		2D3DB688270A741100392673 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DB687270A741100392673 /* Countries.json */; };
 		2D5CB88527120312001F1CB1 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5CB88427120312001F1CB1 /* Countries.swift */; };
+		2D91CEB127128D2A00D3DA64 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D91CEB027128D2A00D3DA64 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2D3DB685270A702000392673 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		2D3DB687270A741100392673 /* Countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
 		2D5CB88427120312001F1CB1 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		2D91CEB027128D2A00D3DA64 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				2D3DB671270A6DC500392673 /* AppDelegate.swift */,
 				2D3DB673270A6DC500392673 /* SceneDelegate.swift */,
 				2D3DB675270A6DC500392673 /* ViewController.swift */,
+				2D91CEB027128D2A00D3DA64 /* DetailViewController.swift */,
 				2D3DB685270A702000392673 /* Country.swift */,
 				2D5CB88427120312001F1CB1 /* Countries.swift */,
 				2D3DB687270A741100392673 /* Countries.json */,
@@ -150,6 +153,7 @@
 				2D3DB686270A702000392673 /* Country.swift in Sources */,
 				2D3DB676270A6DC500392673 /* ViewController.swift in Sources */,
 				2D3DB672270A6DC500392673 /* AppDelegate.swift in Sources */,
+				2D91CEB127128D2A00D3DA64 /* DetailViewController.swift in Sources */,
 				2D5CB88527120312001F1CB1 /* Countries.swift in Sources */,
 				2D3DB674270A6DC500392673 /* SceneDelegate.swift in Sources */,
 			);

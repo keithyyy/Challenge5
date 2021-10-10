@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UITableViewController {
     
     var countries = [Country]()
+    
      
     
 
@@ -35,6 +36,13 @@ class ViewController: UITableViewController {
         cell.textLabel?.text = Country.name
         cell.detailTextLabel?.text = Country.capital
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = DetailViewController()
+        
+        vc.countryFacts = countries[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     
